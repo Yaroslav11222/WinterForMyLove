@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Самой любимой девочке</title>
+    <link rel="icon" type="image/png" href="./media/logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="pink-curtain"></div>
+
+    <div class="container">
+        <header>
+            <h1>🎄 С праздниками, любимая! 💖</h1>
+            <p>Открывай по одному подарку каждый день с 14 по 31 декабря.</p>
+            <div class="daily-surprise-wrapper" id="dailySurprise">
+                <div class="emoji-stage" id="dailyEmoji"></div>
+                <div class="text-stage" id="dailyText"></div>
+            </div>
+        </header>
+
+        <div class="calendar-grid" id="calendar"></div>
+
+        <div class="romantic-footer" id="footer">
+            <img src="./media/love.png" alt="Love" class="footer-image">
+        </div>
+    </div>
+
+    <div id="overlay" class="overlay"></div>
+    <div id="modal" class="modal hidden">
+        <div class="modal-content">
+            <div class="close-btn-wrapper">
+                <span class="close-btn">&times;</span>
+            </div>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
